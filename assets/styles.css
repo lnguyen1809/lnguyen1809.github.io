@@ -340,7 +340,7 @@ body {
 .confetti {
   position: absolute;
   width: 380px;
-  height: 380px;
+  height: 480px;
   overflow: hidden;
 }
 
@@ -383,12 +383,12 @@ body {
 
 @keyframes down {
   0% {top:-110px; transform: rotate(0deg) rotateY(-90deg);opacity:1;}
-  100% {top:400px; transform: rotate(360deg) rotateY(180deg);opacity:0.5;}
+  100% {top:500px; transform: rotate(360deg) rotateY(180deg);opacity:0.5;}
 }
 
 @keyframes downTwo {
   0% {top:-130px; transform: rotate(0deg) rotateY(90deg);opacity:1;}
-  100% {top:400px; transform: rotate(-360deg) rotateY(-180deg);opacity:0.5;}
+  100% {top:500px; transform: rotate(-360deg) rotateY(-180deg);opacity:0.5;}
 }
 
 
@@ -461,6 +461,7 @@ body {
 
 p {
     font-family: 'Brush Script MT', cursive;
+	font-size: 18px;
     margin: 10px;
     color: #333;
 }
@@ -468,7 +469,7 @@ p {
 .name {
     position: absolute;
     left:250px;
-    top:320px;
+    top:360px;
     color: #333;
 }
 
